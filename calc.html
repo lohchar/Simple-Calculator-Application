@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <div class="card border-success mb-3" style="max-width: 18rem;">
+        <div class="card-header bg-transparent border-success">SIMPLE CALCULATOR</div>
+        <div class="card-body text-success">
+            <span id="num1-el"></span>
+            <span id="num2-el"></span>
+            <br>
+            <button id="add-btn" onclick="add()">Add</button>
+            <button id="sub-btn" onclick="subtract()">Subtract</button>
+            <br>
+            <button id="div-btn" onclick="divide()">Divide</button>
+            <br>
+            <button id="mult-btn" onclick="multiply()">Multiply</button>
+            <br>
+        </div>
+        <div class="card-footer bg-transparent border-success" id="sum-el">Sum:</div>
+      </div>
+    <script src="calc.js"></script>
+</body>
+</html>
